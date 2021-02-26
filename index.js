@@ -43,7 +43,7 @@ const { removeBackgroundFromImageFile } = require('remove.bg')
 const { nad } = require('./language')
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'BOT-STARZ\n' // GANTI NAMA LU
+            + 'FN:BOT-STARZ\n' // GANTI NAMA LU
             + 'ORG:OWNER DAMA;\n'
             + 'TEL;type=CELL;type=VOICE;waid=6281532032563:+62 815-3203-2563\n' // GANTI NOMOR LU
             + 'END:VCARD'
@@ -1971,7 +1971,7 @@ break
             case 'owner':
             case 'creator':
                   baby.sendMessage(from, {displayname: "Jeff", vcard: vcard}, MessageType.contact, { quoted: mek})
-                  baby.sendMessage(from, 'Tuh Nomor Pacarku >_<, Ehh Ownerku mksdnya:v',MessageType.text, { quoted: mek} )
+                  baby.sendMessage(from, 'Tuh Nomor Ownerku . Kalo no di atas error bisa klik link di sini ( wa.me/6281532032563 )',MessageType.text, { quoted: mek} )
 					break
 case 'hartatahta':
 if (isBanned) return reply(nad.baned())
